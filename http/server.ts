@@ -15,7 +15,5 @@ export default class Server {
     });
 
     this.server.listen(port);
-    
-    return this.server;
   }
 }
